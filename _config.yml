@@ -22,8 +22,8 @@ title: MCBE Clients Awesome
 email: dev.aldrian@gmail.com
 description: >-
   Awesome list of utility mods for Minecraft: Bedrock Edition.
-baseurl: ""
-url: "http://weissnix4711.github.io/mcbe-clients-awesome"
+baseurl: "/mcbe-clients-awesome"
+url: "https://weissnix4711.github.io"
 github_username: Weissnix4711
 
 # Build settings
