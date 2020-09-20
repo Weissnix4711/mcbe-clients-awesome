@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "Horion goes open source"
-categories: [ "Utility Mod", "Update" ]
-tags: [ "Horion" ]
+categories: [ "Horion" ]
+tags: [ "Utility Mod", "News" ]
 ---
 
 Desc
