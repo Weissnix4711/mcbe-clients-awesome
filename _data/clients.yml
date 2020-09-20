@@ -1,0 +1,25 @@
+- name: Horion
+  platforms:
+    - Windows
+  version: 1.16.40
+  links:
+    - name: Website
+      link: https://horionbeta.club/
+    - name: GitHub
+      link: https://github.com/horionclient/Horion
+    - name: Discord
+      link: https://discord.com/invite/pS3pKkQ
+- name: Nitro
+  platforms:
+    - Windows
+  version: 1.16.40
+  links:
+    - name: Discord
+      link: https://discord.gg/kztaqAD
+- name: Atom
+  platforms:
+    - Windows
+  version: 1.16.40
+  links:
+    - name: Discord
+      link: https://discord.gg/RUSTeNu
