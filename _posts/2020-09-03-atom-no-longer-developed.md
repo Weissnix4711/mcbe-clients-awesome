@@ -4,4 +4,4 @@ categories: [ "Atom" ]
 tags: [ "Utility Mod", "News" ]
 ---
 
-Desc
+Atom will be kept up to date but no new features will be implemented.
