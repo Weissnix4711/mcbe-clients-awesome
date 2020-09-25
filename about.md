@@ -6,5 +6,5 @@ permalink: /about/
 
 A (unconventional) awesome list website of Minecraft: Bedrock Edition utility mods / clients.
 
-You can find the source code for Minima at GitHub:
+You can find the source code for this site at GitHub:
 [mcbe-clients-awesome](https://github.com/Weissnix4711/mcbe-clients-awesome)
