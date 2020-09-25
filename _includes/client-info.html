@@ -1,0 +1,35 @@
+<hr>
+
+{% assign client = site.data.clients | find: "name", client-name %}
+
+{% if client %}
+
+<h3>Found the following data for {{ client.name }}:</h3>
+
+<table>
+  <tr>
+    <th>Platforms</th>
+    <th>Latest version</th>
+  </tr>
+  <tr>
+    <td>{{ client.platforms | array_to_sentence_string }}</td>
+    <td>{{ client.version }}</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Links</th>
+  </tr>
+  {% for l in client.links %}
+  <tr>
+    <td><a href="{{ l.link }}">{{ l.name }}</a></td>
+  </tr>
+  {% endfor %}
+</table>
+
+{% else %}
+
+<h3>Found no data for client: {{ client-name }}</h3>
+
+{% endif %}
