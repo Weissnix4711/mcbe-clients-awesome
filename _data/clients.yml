@@ -29,3 +29,12 @@
   links:
     - name: Discord
       link: https://discord.gg/GvH8dqC
+- name: Toolbox
+  platforms:
+    - Android
+  version: 1.16.40
+  links:
+    - name: Discord
+      link: https://discord.gg/nPnF5md
+    - name: Play Store
+      link: https://play.google.com/store/apps/details?id=io.mrarm.mctoolbox
