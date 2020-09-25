@@ -1,8 +1,7 @@
 <hr>
 
-{% assign client = site.data.clients | find: "name", client-name %}
-
-{% if client %}
+{%- assign client = site.data.clients | find: "name", client-name -%}
+{%- if client -%}
 
 <h3>Found the following data for {{ client.name }}:</h3>
 
@@ -21,15 +20,15 @@
   <tr>
     <th>Links</th>
   </tr>
-  {% for l in client.links %}
+  {%- for l in client.links -d%}
   <tr>
     <td><a href="{{ l.link }}">{{ l.name }}</a></td>
   </tr>
-  {% endfor %}
+  {%- endfor -%}
 </table>
 
-{% else %}
+{%- else -%}
 
 <h3>Found no data for client: {{ client-name }}</h3>
 
-{% endif %}
+{%- endif -%}
