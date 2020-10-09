@@ -1,3 +1,14 @@
+- name: Chron
+  platforms:
+    - Windows
+  version: unreleased
+  links:
+    - name: Discord
+      link: https://discord.gg/q557Ad9
+    - name: Website
+      link: https://chrones.dev/chron
+    - name: GitHub
+      link: https://github.com/ChronesDevelopers/ChronClient
 - name: Horion
   platforms:
     - Windows
