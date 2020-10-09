@@ -1,6 +1,5 @@
 ---
 layout: null
-title: Raw Data
 permalink: /raw/
 ---
 
