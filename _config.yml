@@ -31,14 +31,17 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Global permalink
+permalink: pretty
+
 # Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      permanlink: "pretty"
+#defaults:
+#  - scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      layout: "post"
+#      permanlink: "pretty"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
